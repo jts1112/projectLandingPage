@@ -19,10 +19,12 @@ body {
     display: flex;
     flex-direction: column;
     padding: 8px 15%;
+    /* height: 750px; */
 }
 
+/* Display flex box for debugging */
 div {
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 h1 {
@@ -57,6 +59,7 @@ h1 {
 /* Hero Main Text */
 .hero-main-text {
     font-size: 48px;
+    margin-bottom: 4px;
     font-weight: bolder;
     color: #f9faf8;
 }
@@ -76,14 +79,134 @@ button {
     margin: 4px 0px;
 }
 
+a {
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+.save-tiger-btn {
+    display: block;
+    width: 125px;
+    text-align: center;
+    background-color: transparent;
+    color: #f9faf8;
+    border: #f9faf8 1px solid;
+    border-radius: 5%;
+    padding: 8px 14px;
+    margin: 4px 0px;
+    text-decoration: none;
+    
+}
+
 .second-section {
     background-color: #151c25;
     font-size: 18px;
     color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    text-align: center;
 }
+
+/* THe container */
+.information-section {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+/* container for  a information image and text */
+.information {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+
 
 .information-images {
     background-color: rgb(207, 138, 10);
     font-size: 48px;
-    border-radius: 5%;
+    border-radius: 1%;
+    padding: 40px 30px;
+    text-align: center;
+    
+}
+
+.information-text {
+    font-size: 24px;
+    color: #e5e7eb;
+    margin: 20px;
+}
+
+.second-header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 40px;
+}
+
+
+/* Third section styling */
+.third-section-background {
+    background-image: url(../images/bengal-tiger-8013012_1280.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.third-section {
+    background: linear-gradient(to top, transparent, #151c25),
+    linear-gradient(to bottom, transparent, #151c25)
+    ;
+    
+    display: flex;
+    padding-top: 280px;
+    padding-left: 225px;
+    padding-right: 200px;
+    padding-bottom: 380px;
+    flex-direction: column;
+}
+
+.quote-text , .quote-author {
+    font-size: 36px;
+    font-style: italic;
+    color: #f9faf8;
+    width: 400px;
+}
+
+
+/* fourth section */
+.fourth-section {
+    background-color: #151c25;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.fourth-header {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.fourth-content {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.fourth-section-container {
+    display: flex;
+    gap: 50px;
+}
+
+.fourth-right-side {
+    align-self: center;
+}
+
+.fifth-section {
+    background-color: #151c25;
+    text-align: center;
+}
+
+.fifth-content {
+    color: #f9faf8;
 }
