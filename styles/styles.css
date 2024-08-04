@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-section-background {
+    background-image: url(../images/palms.png);
+}
+
+.first-section {
+    /* background-color: #1f2937; */
+    /* background-image: url(../images/palms.png); */
+    background: linear-gradient(to bottom, transparent, #151c25);
+    display: flex;
+    flex-direction: column;
+    padding: 8px 15%;
+}
+
+div {
+    border: 2px solid red;
+}
+
+h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header {
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 8px;
+
+    justify-content: space-between;
+}
+
+.links a{
+    font-size: 18px;
+    color: #EFE7EB;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.first-section-content {
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 100px 0px;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+
+/* Hero Main Text */
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+/* Hero Secondary Text, Heaer Link Text */
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: transparent;
+    color: #f9faf8;
+    border: #f9faf8 1px solid;
+    border-radius: 5%;
+    padding: 8px 14px;
+    margin: 4px 0px;
+}
+
+.second-section {
+    background-color: #151c25;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.information-images {
+    background-color: rgb(207, 138, 10);
+    font-size: 48px;
+    border-radius: 5%;
+}
